@@ -11,6 +11,11 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+Run below command for the json server created for the data used in this project.
+The url should look like this [http://localhost:8000/taskList](http://localhost:8000/taskList) in your browser.
+
+### json-server --watch --port 8000 db.json
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
